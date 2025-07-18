@@ -8,6 +8,7 @@ com\weyland\yutani\core\web\CommandController$CommandDto.class
 com\weyland\yutani\core\config\ExecutorConfig.class
 com\weyland\yutani\core\model\Command.class
 com\weyland\yutani\core\annotations\WeylandWatchingYou.class
+com\weyland\yutani\core\services\AuditMode.class
 com\weyland\yutani\core\services\exceptions\ErrorResponse.class
 com\weyland\yutani\core\model\Priority.class
 com\weyland\yutani\core\config\StarterConfiguration.class
@@ -16,7 +17,6 @@ com\weyland\yutani\core\services\AuditService.class
 com\weyland\yutani\core\services\CommandService.class
 com\weyland\yutani\core\services\exceptions\CommandValidationException.class
 com\weyland\yutani\core\services\exceptions\CommandExecutionException.class
-com\weyland\yutani\core\services\AuditService$AuditMode.class
 com\weyland\yutani\core\services\exceptions\CommandQueueOverflowException.class
 com\weyland\yutani\core\web\CommandController$CommandResponse.class
 com\weyland\yutani\core\Main.class
