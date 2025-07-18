@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+spring:
+  application:
+    name: synthetic-human-core-starter
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+    time-zone: UTC
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+logging:
+  level:
+    root: INFO
+    com.weyland.yutani: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+command:
+  queue:
+    max-size: 100

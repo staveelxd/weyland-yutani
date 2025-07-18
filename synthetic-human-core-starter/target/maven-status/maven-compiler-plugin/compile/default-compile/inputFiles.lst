@@ -1,0 +1,16 @@
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\annotations\WeylandWatchingYou.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\config\ExecutorConfig.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\config\StarterConfiguration.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\Main.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\model\Command.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\model\Priority.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\services\AuditService.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\services\CommandQueueService.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\services\CommandService.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\services\ErrorHandlerService.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\services\exceptions\CommandExecutionException.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\services\exceptions\CommandQueueOverflowException.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\services\exceptions\CommandValidationException.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\services\exceptions\ErrorResponse.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\services\MetricsService.java
+C:\Users\stave\Desktop\weyland-yutani\synthetic-human-core-starter\src\main\java\com\weyland\yutani\core\web\CommandController.java

@@ -1,0 +1,38 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: bishop-prototype
+  kafka:
+    bootstrap-servers: kafka:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+logging:
+  level:
+    root: INFO
+    com.weyland.yutani.core.services.AuditService: DEBUG
+audit:
+  enabled: true
+  mode: CONSOLE
+  kafka:
+    topic: audit
+
+command:
+  queue:
+    max-size: 100
+    processing-delay-ms: 100
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: always
+  prometheus:
+    metrics:
+      export:
+        enabled: true
