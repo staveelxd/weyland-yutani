@@ -44,7 +44,7 @@ public class MetricsService {
         Counter.builder(QUEUE_OVERFLOW_METRIC)
             .description("Количество случаев переполнения очереди команд")
             .register(registry);
-        log.info("Metrics service initialized");
+        log.info("Сервис метрик инициализирован");
     }
 
     /**

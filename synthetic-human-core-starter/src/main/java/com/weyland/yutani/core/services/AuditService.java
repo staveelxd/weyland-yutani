@@ -23,6 +23,10 @@ import java.util.UUID;
 @Component
 @RequiredArgsConstructor
 public class AuditService {
+    
+    static {
+        log.info("Сервис Аудита инициализирован");
+    }
 
     @Value("${audit.mode:CONSOLE}")
     private AuditMode mode = AuditMode.CONSOLE;
@@ -35,7 +39,10 @@ public class AuditService {
 
     @Around("@annotation(weylandWatchingYou)")
     public Object audit(ProceedingJoinPoint joinPoint, WeylandWatchingYou weylandWatchingYou) throws Throwable {
+        log.info("Аудит включен для следующего метода: {}", joinPoint.getSignature().toShortString());
+
         if (!enabled) {
+            log.info("Аудит отключен");
             return joinPoint.proceed();
         }
         String auditId = UUID.randomUUID().toString();
@@ -59,6 +66,7 @@ public class AuditService {
 
     private void logAuditEntry(String auditId, String status, String methodName,
                                Object[] args, Object result, String error, String description) {
+        log.info("Creating audit entry - ID: {}, Status: {}, Method: {}", auditId, status, methodName);
         try {
             Map<String, Object> auditData = new HashMap<>();
             auditData.put("auditId", auditId);

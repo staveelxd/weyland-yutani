@@ -20,9 +20,6 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDateTime;
 import java.util.Map;
 
-/**
- * REST-контроллер для обработки отправки команд и запросов статуса очереди.
- */
 @Slf4j
 @Validated
 @RestController

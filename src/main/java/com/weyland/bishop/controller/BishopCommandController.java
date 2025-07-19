@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @RestController
 @RequestMapping("/commands")
 @RequiredArgsConstructor
-public class CommandController {
+public class BishopCommandController {
 
     private final CommandService commandService;
 

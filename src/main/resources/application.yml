@@ -2,6 +2,8 @@ server:
   port: 8080
 
 spring:
+  main:
+    allow-bean-definition-overriding: true
   application:
     name: bishop-prototype
   kafka:
@@ -21,8 +23,8 @@ audit:
 
 command:
   queue:
-    max-size: 100
-    processing-delay-ms: 100
+    max-size: 10
+    processing-delay-ms: 10000
 
 management:
   endpoints:
