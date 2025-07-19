@@ -17,7 +17,7 @@ logging:
     com.weyland.yutani.core.services.AuditService: DEBUG
 audit:
   enabled: true
-  mode: CONSOLE
+  mode: KAFKA
   kafka:
     topic: audit
 

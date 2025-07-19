@@ -25,4 +25,4 @@ logging:
     console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
 command:
   queue:
-    max-size: 100
+    max-size: 10
