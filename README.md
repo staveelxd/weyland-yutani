@@ -37,7 +37,7 @@ weyland:
 ```
 4. Соберите проект:
 ```bash
-cd ../bishop-prototype
+cd ..
 mvn clean install
 ```
 5. Запустите контейнер через Docker
