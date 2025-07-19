@@ -22,7 +22,7 @@ cd weyland-yutani/synthetic-human-core-starter
 ```bash
 mvn clean install
 ```
-3Настройте конфигурацию в bishop-prototype/.../application.yml
+3. Настройте конфигурацию в bishop-prototype/.../application.yml
 ```yaml
 weyland:
   security:
@@ -30,12 +30,12 @@ weyland:
       enabled: true
       mode: CONSOLE  # по умолчанию, или KAFKA для продакшна
 ```
-4Соберите проект:
+4. Соберите проект:
 ```bash
 cd ../bishop-prototype
 mvn clean install
 ```
-4. Запустите приложение
+5. Запустите приложение
 ```bash
 mvn spring-boot:run
 ```
